@@ -32,7 +32,7 @@ export default function Index() {
             <Text className="ml-2">12mph</Text>
           </View>
           <View className="flex-row items-center mx-4 ">
-            <Image
+            <Image 
               source={{
                 uri: "https://static-00.iconduck.com/assets.00/humidity-icon-1024x838-vqbjj1sp.png",
               }}

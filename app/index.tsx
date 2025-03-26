@@ -4,7 +4,7 @@ export default function Index() {
   return (
     <View className="flex-1 justify-center items-center bg-#F0F8FF w-full">
       <View className=" items-center bg-white w-[300px] h-[350px] rounded-2xl ">
-        <Text className="m-[20px] text-[30px] font-bold ">Bengaluru, India</Text>
+        <Text className="m-[20px] text-[30px] font-bold font-custom">Bengaluru, India</Text>
         <View className="flex-1 flex-row gap-5">
           <Image
             source={{

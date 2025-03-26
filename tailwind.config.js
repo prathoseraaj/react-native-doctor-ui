@@ -1,10 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // NOTE: Update this to include the paths to all of your component files.
   content: ["./app/**/*.{js,jsx,ts,tsx}"],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'], // Default font
+        serif: ['Georgia', 'serif'],
+        mono: ['Courier New', 'monospace'],
+        custom: ['Ubuntu', 'sans-serif'], 
+      },
+    },
   },
   plugins: [],
 }

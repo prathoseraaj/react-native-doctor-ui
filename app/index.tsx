@@ -9,7 +9,7 @@ export default function Index() {
       </View>
       <View className="justify-center items-center bg-white w-[300px] h-[200px] mt-10 rounded-2xl">
       <Text>Future data</Text>
-      </View>
+      </View> 
     </View>
 
   );

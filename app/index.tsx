@@ -15,6 +15,7 @@ export default function Index() {
           />
           <Text className="text-[50px] mt-3">34°</Text>
         </View>
+        <Text className="flex-1 text-base text-gray-500 font-bold -mt-[30px]">Gomala kodhikuthu</Text>
       </View>
       <View className="justify-center items-center bg-white w-[300px] h-[200px] mt-10 rounded-2xl">
         <Text>Future data</Text>

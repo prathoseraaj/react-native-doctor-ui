@@ -13,6 +13,7 @@ export default function Index() {
             className="w-[100px] h-[100px]"
             resizeMode="cover"
           />
+          <Text className="text-[50px]">34°</Text>
         </View>
       </View>
       <View className="justify-center items-center bg-white w-[300px] h-[200px] mt-10 rounded-2xl">

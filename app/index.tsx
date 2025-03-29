@@ -1,9 +1,30 @@
 import { Image, ScrollView, Text, View } from "react-native";
 import { fetchWeatherbyCity } from "@/services/api";
+import { useEffect, useState } from "react";
+import { WeatherData } from "@/interfaces/weather";
+import { SearchBar } from "react-native-screens";
 
 export default function Index() {
+
+  const [weatherdata, setWeatherdata] = useState<WeatherData | null> (null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect (()=>{
+    const loadweatherData = async () => {
+      try{
+        const data = await fetchWeatherbyCity('london');
+        setWeatherdata(data);
+      } 
+      catch(error){
+
+      }
+    }
+  })
+
   return (
     <View className="flex-1 justify-center items-center bg-#F0F8FF w-full">
+      <SearchBar placeholder="city name"/>
       <View className=" flex-column items-center bg-white w-[300px] h-[350px] rounded-2xl ">
         <Text className="m-[20px] text-[30px] font-bold font-custom">
           Bengaluru, India

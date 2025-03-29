@@ -38,7 +38,7 @@ export default function Index() {
             className="w-[100px] h-[100px]"
             resizeMode="cover"
           />
-          <Text className="text-[50px] mt-3">34°</Text>
+          <Text className="text-[50px] mt-3 ">{weatherdata?.main?.feels_like}</Text>
         </View>
         <Text className=" flex-1 text-base text-gray-500 font-bold mt-[40px] ">
           Gomala kodhikuthu

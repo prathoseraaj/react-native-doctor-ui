@@ -16,5 +16,3 @@ export const fetchWeatherbyCity = async (city: string): Promise<WeatherData> => 
     }
 }
 
-(fetchWeatherbyCity('salem'));
-

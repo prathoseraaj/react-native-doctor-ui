@@ -1,4 +1,5 @@
 import { Image, ScrollView, Text, View } from "react-native";
+import { fetchWeatherbyCity } from "@/services/api";
 
 export default function Index() {
   return (

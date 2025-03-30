@@ -62,7 +62,7 @@ export default function Index() {
               className="w-[25px] h-[25px]"
               resizeMode="contain"
             />
-            <Text className="ml-2">60%</Text>
+            <Text className="ml-2">{weatherdata?.main?.humidity}</Text>
           </View>
         </View>
       </View>

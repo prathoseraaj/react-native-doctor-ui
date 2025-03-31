@@ -23,7 +23,7 @@ export default function Index() {
     loadweatherData();
   }, []);
 
-  return (
+  return (     
     <View className="flex-1 justify-center items-center bg-#F0F8FF w-full">
       <SearchBar placeholder="city name"/>
       <View className=" flex-column items-center bg-white w-[300px] h-[350px] rounded-2xl ">

@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import io, { Socket } from 'socket.io-client';
 
-// Types
+// Types     
 type Message = {
   id: string;
   text: string;
